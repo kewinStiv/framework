@@ -1,0 +1,122 @@
+body{
+	margin: 0 auto;
+	font-family: helvetica;
+}
+
+.principal{
+	padding: 10px;
+	margin-top: 2vh;
+}
+
+.navbar{
+	background-color: #0288d1;
+	min-height: 10vh;
+}
+
+.navbar img{
+	width: 7vw;
+}
+
+.img-social{
+	height: 3vw;
+	max-width: 3vw;
+	border-radius: 10px;
+	transition: transform 1s;
+}
+
+.img-social:hover{
+	transform: scale(1.2,1.2);
+}
+
+.item-nav{
+	text-align: center;
+	background-color: #80d8ff;
+	padding-top: 20px;
+}
+
+.item-nav:hover{
+	background-color: #00b0ff;
+}
+
+.item-nav > a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	width: 100%;
+}
+
+.nav-bar .row{
+	min-height: 10vh;
+}
+
+.img-alan{
+	width: 100%;
+}
+
+´.comentario{
+	border-radius: 5px;
+	resize: none;
+}
+
+.icono{
+	background-color: white;
+	margin-right: -0.4vw;
+}
+
+.list-canciones li{
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #b9bab6;
+	min-height: 5vh;
+	box-sizing: border-box;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.list-canciones li a{
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: black;
+}
+
+.list-canciones li:hover{
+	background-color: #d9d9d9;
+}
+
+@media (max-width: 770px){
+	.logo img{
+		width: 50%;
+	}
+
+	.img-social{
+		max-width: 40vw;
+		height: 30px;
+	}
+
+	.navbar{
+		text-align: center;
+	}
+}
+
+
+@media (max-width: 361px){
+	.logo img{
+		width: 40%;
+	}
+
+	.navbar{
+		text-align: center;
+	}
+
+	.img-social{
+		max-width: 40vw !important;
+		height: 30px;
+	}
+}
+
+/* colores
+
+#0288d1  primario
+#80d8ff  segundario
+#00b0ff  tercero
+#01579b  oscuro
